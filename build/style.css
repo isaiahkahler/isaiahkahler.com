@@ -1,0 +1,34 @@
+body {
+}
+
+#landing {
+    background-color: #69afff;
+}
+
+#portrait-parent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portrait-desk {
+    height: 80%;
+    width: 100%;
+    background-image: url('./media/portrait.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#portrait-touch {
+    align-self: flex-end;
+    height: 80%;
+    width: 100%;
+    background-image: url('./media/portrait.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
