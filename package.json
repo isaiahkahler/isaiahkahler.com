@@ -1,5 +1,5 @@
 {
-  "name": "isaiahkahler.github.io",
+  "name": "isaiahkahler.com",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaiahkahler/isaiahkahler.github.io.git"
+    "url": "git+https://github.com/isaiahkahler/isaiahkahler.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isaiahkahler/isaiahkahler.github.io/issues"
+    "url": "https://github.com/isaiahkahler/isaiahkahler.com/issues"
   },
-  "homepage": "https://github.com/isaiahkahler/isaiahkahler.github.io#readme",
+  "homepage": "https://github.com/isaiahkahler/isaiahkahler.com#readme",
   "devDependencies": {
     "bulma": "^0.8.2",
     "css-loader": "^3.5.3",
