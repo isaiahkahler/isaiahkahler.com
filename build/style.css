@@ -18,7 +18,7 @@ body {
     height: 80%;
     width: 100%;
     align-self: flex-end;
-    background-image: url('./media/portfolio portrait.png');
+    background-image: url('./media/portrait.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,7 +28,7 @@ body {
     height: 80%;
     width: 100%;
     align-self: flex-end;
-    background-image: url('./media/portfolio portrait.png');
+    background-image: url('./media/portrait.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
