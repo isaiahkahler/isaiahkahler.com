@@ -2,7 +2,7 @@ body {
 }
 
 #landing {
-    background-color: #69afff;
+    background-color: #fff;
 }
 
 #portrait-parent {
@@ -17,18 +17,19 @@ body {
 #portrait-desk {
     height: 80%;
     width: 100%;
-    background-image: url('./media/portrait.png');
-    background-position: right;
+    align-self: flex-end;
+    background-image: url('./media/portfolio portrait.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #portrait-touch {
-    align-self: flex-end;
     height: 80%;
     width: 100%;
-    background-image: url('./media/portrait.png');
-    background-position: right;
+    align-self: flex-end;
+    background-image: url('./media/portfolio portrait.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
