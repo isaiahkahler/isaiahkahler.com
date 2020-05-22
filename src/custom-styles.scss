@@ -1,7 +1,16 @@
 @charset "utf-8";
 
-//TODO: remove the following import and replace it with only required imports at the bottom.
 
+
+
+$title-color: inherit;
+$subtitle-color: inherit;
+$subtitle-strong-color: inherit;
+$content-heading-color: inherit;
+
+// $section-padding: 2rem;
+
+//TODO: remove the following import and replace it with only required imports at the bottom.
 @import "../node_modules/bulma/";
 
 // Import a Google Font
@@ -18,7 +27,7 @@
 // $family-sans-serif: "Nunito", sans-serif;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
-$primary: $blue;
+// $primary: $blue;
 // $link: $pink;
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;

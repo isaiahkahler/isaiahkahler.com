@@ -1,8 +1,7 @@
-body {
-}
+body {}
 
-#landing {
-    background-color: #fff;
+.fullheight {
+    min-height: 100vh;
 }
 
 #portrait-parent {
@@ -11,25 +10,57 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+}
+
+#portrait {
+    height: 80%;
+    object-fit: cover;
+}
+
+.no-flex-grow {
+    flex-grow: 0;
+}
+
+.iframe-big {
+    height: 80vh;
+    width: 100%;
+}
+
+.is-vertical-always {
+    flex-direction: column;
+}
+
+.v-desktop-h-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-#portrait-desk {
-    height: 80%;
-    width: 100%;
-    align-self: flex-end;
-    background-image: url('./media/portrait.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.h-desktop-v-touch {
+    display: flex;
+    flex-direction: row;
 }
 
-#portrait-touch {
-    height: 80%;
-    width: 100%;
-    align-self: flex-end;
-    background-image: url('./media/portrait.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+@media only screen and (max-width: 768px) {
+    .v-desktop-h-touch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }    
+    .h-desktop-v-touch {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width: 600px){
+    .v-desktop-h-touch {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }    
 }
