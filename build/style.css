@@ -32,3 +32,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.project-button:hover {
+    background-color: #3273DC !important;
+    color: #fff !important;
+    transition: 0.2s;
+}
